@@ -1,0 +1,16 @@
+
+.heading{
+	text-align: center;
+	font-size: 60px;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+.menu{
+	position: absolute;
+	top: 1vw;
+	right: 3vw;
+}
+.dimensions{
+	font-size: 35px;
+	text-decoration: none;
+}
