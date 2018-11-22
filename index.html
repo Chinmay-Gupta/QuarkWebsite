@@ -20,55 +20,104 @@
 </head>
 
 <body>
-
-	<!--Events Heading canvas script-->
-	<script src='http://requirejs.org/docs/release/2.1.15/minified/require.js'></script>
-	<script src='https://rawgit.com/ironwallaby/delaunay/master/delaunay.js'></script>
-	<script src="script/stars.js"></script>
-
 	<!--Side Nav Bar-->
 	<div id="mySidenav" class="sidenav">
-		<a href="#" class="closebtn" onclick="closeNav();">&times;</a>
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Teams</a>
-		<a href="#">Contact</a>
+		<a href="#" class="homebtn"><span class="glyphicon glyphicon-home"></span></a>
+		<a href="#" class="closebtn" onclick="closeNav();"><span class="glyphicon glyphicon-remove"></span></a>
+		<div class="list">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Teams</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
 	</div>
 
+	<!-- Main Container -->
 	<div class="container-fluid" id="main">
 
 		<!--Canvas for heading-->
 		<div class="headBackground">
-			<canvas id="stars">
-			</canvas>	
+			<canvas id="stars"></canvas>	
 		</div>	
+
 		<!--Header-->
 		<div class="row">
 			<div class="col-lg-12">
 				<p class="heading">EVENTS</p>
 				<span class="glyphicon glyphicon-cog" id="sidenavCog" onclick="openNav();"></span>
-				
 			</div>
 		</div>
-	
-		
-	<ul class="nav nav-tabs" id="myTab" role="tablist">
-	  <li class="nav-item">
-	    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-	  </li>
-	</ul>
-	<div class="tab-content" id="myTabContent">
-	  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
-	  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
-	  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
-	</div> 
+		<div class="row empty1">
+			<div class="col-lg-12"></div>
+		</div>
+
+		<!-- Events -->
+		<div class="event-container">
+		<!-- Row-1 -->
+			<div class="row event-blocks">
+				<div class="col-lg-12">
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- Row-1 ends here -->
+		<!-- Row-2 -->
+			<div class="row event-blocks">
+				<div class="col-lg-12">
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+					<div class="col-lg-3 blocks-container">
+						<div class="blocks">
+							<p class="block-title">Roboficial</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Row-2 ends here -->
+		</div>
+
 	</div>
+
+
+<!--Events Heading canvas script-->
+<script src='http://requirejs.org/docs/release/2.1.15/minified/require.js'></script>
+<script src='https://rawgit.com/ironwallaby/delaunay/master/delaunay.js'></script>
+<script src="script/stars.js"></script>
+
+<!-- General Script -->
 <script type="text/javascript" src="script/script.js"></script>
 	
 </body>
