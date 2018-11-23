@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-	// js goes in here.
 	/**
  * Stars
  * Inspired by Steve Courtney's poster art for Celsius GS's Drifter - http://celsiusgs.com/drifter/posters.php
