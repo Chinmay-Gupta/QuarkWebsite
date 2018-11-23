@@ -23,7 +23,7 @@ function closeNav() {
 
 function rotateSidenavCog()
 {
-	document.getElementById("sidenavCog").style.transform="rotate(360deg)";
+	document.getElementById("sidenavCog").style.transform="rotate(180deg)";
 }
 
 function rotateSidenavCogReverse()
