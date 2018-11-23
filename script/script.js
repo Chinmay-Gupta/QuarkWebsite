@@ -7,8 +7,8 @@ function SidenavToggle(){
 	else closeNav();
 }
 function openNav() {
-    document.getElementById("mySidenav").style.width = "400px";
-	document.getElementById("main").style.marginLeft = "400px";
+    document.getElementById("mySidenav").style.width = "15%";
+	document.getElementById("main").style.marginLeft = "15%";
 	rotateSidenavCog();
 	isOpen=true;
 }
@@ -32,7 +32,7 @@ function rotateSidenavCogReverse()
 }
 
 
-(()=>{
+/*(()=>{
 	let $ = c.getContext("2d"),
 			h = c.height = window.innerHeight,
 			w = c.width = window.innerWidth,
@@ -64,3 +64,4 @@ function rotateSidenavCogReverse()
 		h=c.height=window.innerHeight;
 	});
 })()
+*/
