@@ -35,6 +35,12 @@ var panel1IsOpen=false;
 function showPanel1(){
 	if (panel1IsOpen==false)
 	{
+		document.getElementById("dropdown-2").style.display="none";	//close Panel 2
+		panel2IsOpen=false;
+		document.getElementById("dropdown-3").style.display="none";	// close Panel 3
+		panel3IsOpen=false;
+		document.getElementById("dropdown-4").style.display="none";//close Panel 4
+		panel4IsOpen=false;
 		document.getElementById("dropdown-1").style.display="block";
 		panel1IsOpen=true;
 	}
@@ -50,6 +56,12 @@ var panel2IsOpen=false;
 function showPanel2(){
 	if (panel2IsOpen==false)
 	{
+		document.getElementById("dropdown-1").style.display="none";	//close Panel 1
+		panel1IsOpen=false;
+		document.getElementById("dropdown-3").style.display="none";	// close Panel 3
+		panel3IsOpen=false;
+		document.getElementById("dropdown-4").style.display="none";//close Panel 4
+		panel4IsOpen=false;
 		document.getElementById("dropdown-2").style.display="block";
 		panel2IsOpen=true;
 	}
@@ -65,6 +77,12 @@ var panel3IsOpen=false;
 function showPanel3(){
 	if (panel3IsOpen==false)
 	{
+		document.getElementById("dropdown-2").style.display="none";	//close Panel 2
+		panel2IsOpen=false;
+		document.getElementById("dropdown-1").style.display="none";	// close Panel 1
+		panel1IsOpen=false;
+		document.getElementById("dropdown-4").style.display="none";//close Panel 4
+		panel4IsOpen=false;
 		document.getElementById("dropdown-3").style.display="block";
 		panel3IsOpen=true;
 	}
@@ -80,6 +98,12 @@ var panel4IsOpen=false;
 function showPanel4(){
 	if (panel4IsOpen==false)
 	{
+		document.getElementById("dropdown-2").style.display="none";	//close Panel 2
+		panel2IsOpen=false;
+		document.getElementById("dropdown-3").style.display="none";	// close Panel 3
+		panel3IsOpen=false;
+		document.getElementById("dropdown-1").style.display="none";//close Panel 1
+		panel1IsOpen=false;
 		document.getElementById("dropdown-4").style.display="block";
 		panel4IsOpen=true;
 	}
