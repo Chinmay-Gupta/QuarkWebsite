@@ -31,37 +31,62 @@ function rotateSidenavCogReverse()
 	document.getElementById("sidenavCog").style.transform="rotate(0deg)";
 }
 
-
-/*(()=>{
-	let $ = c.getContext("2d"),
-			h = c.height = window.innerHeight,
-			w = c.width = window.innerWidth,
-			random = (n)=>Math.random()*n,
-			stars = new Array(1000).fill().map(()=>{
-				return {r: random(w),	s: random(0.01), a: random(Math.PI*2)};
-			});
-	function loop(){
-		$.fillStyle="rgba(0,0,0,.1)";
-		$.fillRect(0,0,w,h);
-		stars.forEach(e=>{
-			e.a+=e.s;
-			$.save();
-			$.beginPath();
-			$.translate(w/2, h/2);
-			$.rotate(e.a);
-			$.arc(e.r,e.r,1,0,Math.PI*2);
-			//$.arc(Math.cos(e.a)*e.r + w/2, Math.sin(e.a)*e.r + h/2,1,0,Math.PI*2);
-			$.closePath();
-			$.fillStyle = "white";
-			$.fill();
-			$.restore()
-		})
-		requestAnimationFrame(loop)
+var panel1IsOpen=false;
+function showPanel1(){
+	if (panel1IsOpen==false)
+	{
+		document.getElementById("dropdown-1").style.display="block";
+		panel1IsOpen=true;
 	}
-	loop();
-	window.addEventListener("resize", (e)=>{
-		w=c.width=window.innerWidth;
-		h=c.height=window.innerHeight;
-	});
-})()
-*/
+	else
+	{
+		document.getElementById("dropdown-1").style.display="none";
+		panel1IsOpen=false;
+	}
+
+}
+
+var panel2IsOpen=false;
+function showPanel2(){
+	if (panel2IsOpen==false)
+	{
+		document.getElementById("dropdown-2").style.display="block";
+		panel2IsOpen=true;
+	}
+	else
+	{
+		document.getElementById("dropdown-2").style.display="none";
+		panel2IsOpen=false;
+	}
+
+}
+
+var panel3IsOpen=false;
+function showPanel3(){
+	if (panel3IsOpen==false)
+	{
+		document.getElementById("dropdown-3").style.display="block";
+		panel3IsOpen=true;
+	}
+	else
+	{
+		document.getElementById("dropdown-3").style.display="none";
+		panel3IsOpen=false;
+	}
+
+}
+
+var panel4IsOpen=false;
+function showPanel4(){
+	if (panel4IsOpen==false)
+	{
+		document.getElementById("dropdown-4").style.display="block";
+		panel4IsOpen=true;
+	}
+	else
+	{
+		document.getElementById("dropdown-4").style.display="none";
+		panel4IsOpen=false;
+	}
+
+}

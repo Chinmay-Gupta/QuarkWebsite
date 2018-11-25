@@ -34,7 +34,7 @@ body{
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	z-index: -1;
+	z-index: -2;
 }
 
 #sidenavCog{
@@ -47,7 +47,7 @@ body{
 	color: white;
 }
 #sidenavCog:hover{
-	color: rgb(0, 0, 102);
+	color: #7c7373fd;
 }
 
 .list{
@@ -147,7 +147,7 @@ li{
 	
 	/*opacity: 0.5;
 */	width: 100%;
-	height: 400px;
+	height: auto;
 	border: 2px solid orange;
 	text-align : center;
 	font-size: 30px;
@@ -180,6 +180,55 @@ li{
 	height: 40px;
 }
 
+.dropdown-1{
+
+	border: 2px solid white;
+	background: yellow;
+	display: none;
+	margin-top: 20px;
+	opacity: 0.6;
+	width:100%;
+	z-index :2;
+	transition: 0.5s;
+
+}
+.dropdown-2{
+
+	border: 2px solid white;
+	background: red;
+	display: none;
+	margin-top: 20px;
+	opacity: 0.6;
+	width:100%;
+	z-index :2;
+	transition: 0.5s;
+
+}
+.dropdown-3{
+
+	border: 2px solid white;
+	background: orange;
+	display: none;
+	margin-top: 20px;
+	opacity: 0.6;
+	width:100%;
+	z-index :2;
+	transition: 0.5s;
+
+}
+.dropdown-4{
+
+	border: 2px solid white;
+	background: orangered;
+	display: none;
+	margin-top: 20px;
+	opacity: 0.6;
+	width:100%;
+	z-index :2;
+	transition: 0.5s;
+
+}
+
 /* 2nd canvas 
 #branches{
 	height:100%;
@@ -209,9 +258,3 @@ li{
 	background: black;
 }
 
-#c{
-	position: absolute;
-	z-index: 0;
-	height: 100%;
-	right:0px;
-}
