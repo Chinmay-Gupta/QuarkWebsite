@@ -20,6 +20,61 @@
 </head>
 
 <body>
+
+	<!-- The Modal -->
+	<div class="modal fade" id="roboficial">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+				
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">Modal Heading</h4>
+					</div>
+					
+					<!-- Modal body -->
+					<div class="modal-body">
+						<ul class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#roboclench">Roboclench</a></li>
+								<li><a data-toggle="tab" href="#robowars">Robowars</a></li>
+								<li><a data-toggle="tab" href="#robosoccer">Robosoccer</a></li>
+								<li><a data-toggle="tab" href="#roborace">Roborace</a></li>
+								<li><a data-toggle="tab" href="#lineFollowingBot">Line Following Bot</a></li>
+						</ul>
+							
+						<div class="tab-content">
+								<div id="roboclench" class="tab-pane fade in active">
+								<h3>HOME</h3>
+								<p>Some content.</p>
+								</div>
+								<div id="robowars" class="tab-pane fade">
+								<h3>Menu 1</h3>
+								<p>Some content in menu 1.</p>
+								</div>
+								<div id="robosoccer" class="tab-pane fade">
+								<h3>Menu 2</h3>
+								<p>Some content in menu 2.</p>
+								</div>
+								<div id="roborace" class="tab-pane fade">
+										<h3>Menu 2</h3>
+										<p>Some content in menu 2.</p>
+								</div>
+								<div id="lineFollowingBot" class="tab-pane fade">
+												<h3>Menu 2</h3>
+												<p>Some content in menu 2.</p>
+								</div>
+						</div>
+				</div>
+				
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+				
+				</div>
+			</div>
+		</div>
+
+
 	<!--Side Nav Bar-->
 	<div id="mySidenav" class="sidenav">
 		<a href="#" class="homebtn"><span class="glyphicon glyphicon-home"></span></a>
@@ -70,9 +125,6 @@
 			</div>
 		</div>
 
-		
-
-		
 		<!-- Events -->
 		<div class="event-container">
 
@@ -80,8 +132,7 @@
 			<div class="row event-blocks">
 				<div class="col-lg-12">
 					<div class="col-lg-3 blocks-container">
-						<div class="blocks" onclick="showPanel1();">
-							
+						<div class="blocks" data-toggle="modal" data-target="#roboficial">
 								<p class="block-title">Roboficial</p>
 							</a>
 						</div>

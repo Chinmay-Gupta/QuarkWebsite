@@ -165,8 +165,6 @@ li{
 	border: 4px solid red;
 }
 .block-title{
-
-
 	padding-top: 8%;
 	
 }
@@ -275,3 +273,8 @@ li{
 	background: black;
 }
 
+.modal-content{
+	background-color: black !important;
+	color: white;
+	opacity: 0.9;
+}
